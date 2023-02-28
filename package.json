@@ -7,16 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/IanaBlue/frontend-project-44.git"
   },
-  "author": "",
+  "author": "Iana Blue",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IanaBlue/frontend-project-44/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/IanaBlue/frontend-project-44#readme",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
