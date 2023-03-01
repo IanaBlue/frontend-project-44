@@ -3,4 +3,4 @@
 
 <a href="https://codeclimate.com/github/IanaBlue/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/b92b7c1ac79ecd381484/maintainability" /></a>
 
-[![asciicast](https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.svg)](https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL)
+Пятый шаг первого проекта https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL
