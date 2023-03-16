@@ -3,4 +3,4 @@
 
 <a href="https://codeclimate.com/github/IanaBlue/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/b92b7c1ac79ecd381484/maintainability" /></a>
 
-Пятый шаг первого проекта https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL
+Brain-games "Проверка на чётность": https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL
