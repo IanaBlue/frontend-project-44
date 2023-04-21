@@ -2,7 +2,7 @@ import gameProcess from '../index.js';
 
 const isNumPrime = (number) => {
     if (number === 1) {
-      return false;
+      return 'no';
     }
     let result = [];
     for (let i = 2; i <= number; i += 1) {
@@ -11,9 +11,9 @@ const isNumPrime = (number) => {
       }
     }
     if (result.length > 1) {
-      return false;
+      return 'no';
     }
-    return true;
+    return 'yes';
   };
 
 const taskOfRound = 'Answer "yes" if given number is prime. Otherwise answer "no".';
