@@ -20,7 +20,7 @@ const gameRaund = () => {
     let num1 = Math.ceil(Math.random() * 20);
     let num2 = Math.ceil(Math.random() * 10);
 
-    const question = (num1+currentOperator+num2);
+    const question = num1 + currentOperator + num2;
     const correctAnswer = String(resultOfExpression(num1, num2, currentOperator));
     return [question, correctAnswer];        
 };
