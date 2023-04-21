@@ -16,7 +16,7 @@ const gameRaund = () => {
     let currentProgressionNumbers = progressionNumbers();
     let removed = currentProgressionNumbers.splice((Math.random() * 10) - 1, 1, '..');
     
-    const question = currentProgressionNumbers.toString();
+    const question = currentProgressionNumbers.join(' ');
     const correctAnswer = removed.toString();
     return [question, correctAnswer];        
 };
