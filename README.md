@@ -6,4 +6,5 @@
 Brain-games. Игра: "Проверка на чётность": https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL <br />
 Brain-games. Игра: "Калькулятор":  https://asciinema.org/a/2BpFfSZFzVkOJ82jAFwS6HRBA <br />
 Brain-games. Игра: "НОД": https://asciinema.org/a/qWJQdmI2OwimLCBw4fciex5e <br />
-Brain-games. Игра: "Арифметическая прогрессия": https://asciinema.org/a/70i50VkCLWBjCf5FgNTOMIsfm
+Brain-games. Игра: "Арифметическая прогрессия": https://asciinema.org/a/70i50VkCLWBjCf5FgNTOMIsfm <br />
+Brain-games. Игра: "Простое ли число?": https://asciinema.org/a/Khdar1xJ1q0jDEFp34d5f8IP5
