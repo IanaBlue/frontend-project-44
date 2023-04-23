@@ -18,6 +18,7 @@ Brain Games is a set of five console games built using popular mobile brain trai
 <h2>Requirements</h2>
 <ul>
 <li>"node": "^12.22.0 || ^14.17.0 || >=16.0.0" </li>
+</ul>
 
 <h3> Install </h3> <hr>
 <ol>
