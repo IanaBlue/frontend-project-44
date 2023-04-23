@@ -20,11 +20,10 @@ Brain Games is a set of five console games built using popular mobile brain trai
 <li>"node": "^12.22.0 || ^14.17.0 || >=16.0.0" </li>
 
 <h3> Install </h3> <hr>
-<ol>
-<li>git clone https://github.com/IanaBlue/frontend-project-44.git</li>
-<li>make install</li>
-<li>npm link </li>
-</ol>
+git clone https://github.com/IanaBlue/frontend-project-44.git
+make install
+npm link
+
 
 <h3> Games </h3> <hr>
 <strong>Brain-games: "Even number"</strong> </br>
