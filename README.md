@@ -25,10 +25,17 @@ Brain Games is a set of five console games built using popular mobile brain trai
 
 <h3> Games </h3> <hr>
 <strong>Brain-games: "Even number"</strong> </br>
-<strong>brain-even to start</strong> <a href="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL" target="_blank"><img src="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.svg" /></a> </br>
-<strong>Brain-games: "Calculator":</strong> </br>
+<strong>brain-even to start</strong> 
+<a href="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL" target="_blank"><img src="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.svg" /></a> </br>
+<strong>Brain-games: "Calculator"</strong> </br>
 <strong>brain-calc to start</strong> 
 <a href="https://asciinema.org/a/72YKXr4RpfUygJDnVFufMm6yR" target="_blank"><img src="https://asciinema.org/a/72YKXr4RpfUygJDnVFufMm6yR.svg" /></a>
-<strong>Brain-games: "Greatest Common Divisor":</strong> </br>
-<strong>Brain-games: "Missing number":</strong> </br>
-<strong>Brain-games: "Prime numbers":</strong> </br>
+<strong>Brain-games: "Greatest Common Divisor"</strong> </br>
+<strong>brain-gcd to start</strong> 
+<a href="https://asciinema.org/a/vaGuxkoTU7DpPckbRzB5vcBXH" target="_blank"><img src="https://asciinema.org/a/vaGuxkoTU7DpPckbRzB5vcBXH.svg" /></a>
+<strong>Brain-games: "Missing number"</strong> </br>
+<strong>brain-progression to start</strong>
+<a href="https://asciinema.org/a/ChFnok6FJHUfK6J5yTzfLd1yX" target="_blank"><img src="https://asciinema.org/a/ChFnok6FJHUfK6J5yTzfLd1yX.svg" /></a>
+<strong>Brain-games: "Prime numbers"</strong> </br>
+<strong>brain-prime to start</strong>
+<a href="https://asciinema.org/a/e7u4hZDJOJvABslnJwHyTjzYG" target="_blank"><img src="https://asciinema.org/a/e7u4hZDJOJvABslnJwHyTjzYG.svg" /></a>
