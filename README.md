@@ -24,7 +24,7 @@ Brain Games is a set of five console games built using popular mobile brain trai
 </ol>
 
 <h3> Games </h3> <hr>
-<strong>Brain-games. Игра: "Проверка на чётность":</strong> </br>
+<strong>Brain-games. Игра: "Проверка на чётность":</strong> <a href="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL" target="_blank"><img src="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.svg" /></a> </br>
 <strong>Brain-games. Игра: "Калькулятор":</strong> </br>
 <strong>Brain-games. Игра: "НОД":</strong> </br>
 <strong>Brain-games. Игра: "Арифметическая прогрессия":</strong> </br>
