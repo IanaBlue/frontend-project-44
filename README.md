@@ -23,7 +23,7 @@ npm install <br />
 npm link <br />
 
 <strong> Games </strong> <hr>
-Brain-games. Игра: "Проверка на чётность": <script async id="asciicast-QkAUPWIPfNSO3E2njDQcW7cOL" src="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.js"></script> <br />
+Brain-games. Игра: "Проверка на чётность": [![asciicast](https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.svg)](https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL) <br />
 Brain-games. Игра: "Калькулятор":  https://asciinema.org/a/2BpFfSZFzVkOJ82jAFwS6HRBA <br />
 Brain-games. Игра: "НОД": https://asciinema.org/a/qWJQdmI2OwimLCBw4fciex5e <br />
 Brain-games. Игра: "Арифметическая прогрессия": https://asciinema.org/a/70i50VkCLWBjCf5FgNTOMIsfm <br />
