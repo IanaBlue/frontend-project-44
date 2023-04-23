@@ -18,14 +18,17 @@ Brain Games is a set of five console games built using popular mobile brain trai
 
 <h3> Install </h3> <hr>
 <ol>
-<li>git clone https://github.com/use-lie-die/frontend-project-44.git</li>
+<li>git clone https://github.com/IanaBlue/frontend-project-44.git </li>
 <li>make install</li>
 <li>npm link </li>
 </ol>
 
 <h3> Games </h3> <hr>
-<strong>Brain-games. Игра: "Проверка на чётность":</strong> <a href="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL" target="_blank"><img src="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.svg" /></a> </br>
-<strong>Brain-games. Игра: "Калькулятор":</strong> </br>
-<strong>Brain-games. Игра: "НОД":</strong> </br>
-<strong>Brain-games. Игра: "Арифметическая прогрессия":</strong> </br>
-<strong>Brain-games. Игра: "Простое ли число?":</strong> </br>
+<strong>Brain-games: "Even number"</strong> </br>
+<strong>brain-even to start</strong> <a href="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL" target="_blank"><img src="https://asciinema.org/a/QkAUPWIPfNSO3E2njDQcW7cOL.svg" /></a> </br>
+<strong>Brain-games: "Calculator":</strong> </br>
+<strong>brain-calc to start</strong> 
+<a href="https://asciinema.org/a/72YKXr4RpfUygJDnVFufMm6yR" target="_blank"><img src="https://asciinema.org/a/72YKXr4RpfUygJDnVFufMm6yR.svg" /></a>
+<strong>Brain-games: "Greatest Common Divisor":</strong> </br>
+<strong>Brain-games: "Missing number":</strong> </br>
+<strong>Brain-games: "Prime numbers":</strong> </br>
