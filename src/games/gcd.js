@@ -15,15 +15,13 @@ const maxDivider = (num1, num2) => {
 };
 
 const description = 'Find the greatest common divisor of given numbers.';
-const minNum = 1;
-const maxNum = 30;
 
 const generateRound = () => {
-  const num1 = generateRandomNum(minNum, maxNum);
-  const num2 = generateRandomNum(minNum, maxNum);
+  const number1 = generateRandomNum();
+  const number2 = generateRandomNum();
 
-  const question = `${num1} ${num2}`;
-  const answer = String(maxDivider(num1, num2));
+  const question = `${number1} ${number2}`;
+  const answer = String(maxDivider(number1, number2));
   return [question, answer];
 };
 

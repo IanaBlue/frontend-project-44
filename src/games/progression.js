@@ -1,10 +1,10 @@
 import startGameProcess from '../index.js';
 import generateRandomNum from '../helpers.js';
 
-const makeProgressionNumbers = (startNum, increment, length) => {
+const generateProgression = (startNumber, increment, length) => {
   const result = [];
   for (let i = 0; i < length; i += 1) {
-    result.push(startNum + i * increment);
+    result.push(startNumber + i * increment);
   }
   return result;
 };
@@ -12,15 +12,17 @@ const makeProgressionNumbers = (startNum, increment, length) => {
 const description = 'What number is missing in the progression?';
 
 const generateRound = () => {
-  const startNum = generateRandomNum(1, 5);
+  const startNumber = generateRandomNum(1, 5);
   const increment = generateRandomNum(1, 10);
   const length = generateRandomNum(5, 10);
 
-  const currentProgressionNumbers = makeProgressionNumbers(startNum, increment, length);
-  const removed = currentProgressionNumbers.splice((Math.random() * currentProgressionNumbers.length) - 1, 1, '..');
+  const progression = generateProgression(startNumber, increment, length);
+  const hiddenIndex = generateRandomNum(0, progression.length);
+  const hiddenNumber = progression[hiddenIndex];
+  progression[hiddenIndex] = '..';
 
-  const question = currentProgressionNumbers.join(' ');
-  const answer = removed.toString();
+  const question = progression.join(' ');
+  const answer = hiddenNumber.toString();
   return [question, answer];
 };
 

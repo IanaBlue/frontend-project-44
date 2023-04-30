@@ -1,22 +1,15 @@
 import startGameProcess from '../index.js';
 import generateRandomNum from '../helpers.js';
 
-const isEven = (number) => {
-  if (number % 2 === 0) {
-    return 'yes';
-  }
-  return 'no';
-};
+const isEven = (number) => number % 2 === 0;
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
-const minNum = 1;
-const maxNum = 10;
 
 const generateRound = () => {
-  const randomNum = generateRandomNum(minNum, maxNum);
+  const randomNum = generateRandomNum();
 
   const question = randomNum;
-  const answer = isEven(question);
+  const answer = isEven(question) ? 'yes' : 'no';
   return [question, answer];
 };
 

@@ -1,9 +1,9 @@
 import startGameProcess from '../index.js';
 import generateRandomNum from '../helpers.js';
 
-const isNumPrime = (number) => {
+const isPrime = (number) => {
   if (number === 1) {
-    return 'no';
+    return false;
   }
   const result = [];
   for (let i = 2; i <= number; i += 1) {
@@ -12,20 +12,18 @@ const isNumPrime = (number) => {
     }
   }
   if (result.length > 1) {
-    return 'no';
+    return false;
   }
-  return 'yes';
+  return true;
 };
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const minNum = 1;
-const maxNum = 100;
 
 const generateRound = () => {
-  const randomNum = generateRandomNum(minNum, maxNum);
+  const randomNum = generateRandomNum();
 
   const question = randomNum;
-  const answer = isNumPrime(question);
+  const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
 
