@@ -1,5 +1,5 @@
 import startGameProcess from '../index.js';
-import generateRandomNum from '../helpers.js';
+import generateRandomNumber from '../helpers.js';
 
 const calculate = (a, b, operator) => {
   switch (operator) {
@@ -18,9 +18,9 @@ const description = 'What is the result of the expression?';
 
 const generateRound = () => {
   const operators = ['+', '-', '*'];
-  const currentOperator = operators[generateRandomNum(0, 3)];
-  const number1 = generateRandomNum();
-  const number2 = generateRandomNum();
+  const currentOperator = operators[generateRandomNumber(0, operators.length - 1)];
+  const number1 = generateRandomNumber(1, 50);
+  const number2 = generateRandomNumber(1, 50);
 
   const question = `${number1} ${currentOperator} ${number2}`;
   const answer = String(calculate(number1, number2, currentOperator));

@@ -1,18 +1,14 @@
 import startGameProcess from '../index.js';
-import generateRandomNum from '../helpers.js';
+import generateRandomNumber from '../helpers.js';
 
 const isPrime = (number) => {
-  if (number === 1) {
+  if (number <= 1) {
     return false;
   }
-  const result = [];
-  for (let i = 2; i <= number; i += 1) {
+  for (let i = 2; i < number; i += 1) {
     if (number % i === 0) {
-      result.push(i);
+      return false;
     }
-  }
-  if (result.length > 1) {
-    return false;
   }
   return true;
 };
@@ -20,9 +16,7 @@ const isPrime = (number) => {
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const generateRound = () => {
-  const randomNum = generateRandomNum();
-
-  const question = randomNum;
+  const question = generateRandomNumber(1, 50);
   const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };

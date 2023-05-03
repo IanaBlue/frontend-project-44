@@ -1,24 +1,24 @@
 import startGameProcess from '../index.js';
-import generateRandomNum from '../helpers.js';
+import generateRandomNumber from '../helpers.js';
 
-const maxDivider = (num1, num2) => {
-  let firstDiveder = num1;
-  let secondDiveder = num2;
-  while (firstDiveder !== secondDiveder) {
-    if (firstDiveder > secondDiveder) {
-      firstDiveder -= secondDiveder;
+const maxDivider = (number1, number2) => {
+  let firstDivider = number1;
+  let secondDivider = number2;
+  while (firstDivider !== secondDivider) {
+    if (firstDivider > secondDivider) {
+      firstDivider -= secondDivider;
     } else {
-      secondDiveder -= firstDiveder;
+      secondDivider -= firstDivider;
     }
   }
-  return (firstDiveder || secondDiveder);
+  return (firstDivider || secondDivider);
 };
 
 const description = 'Find the greatest common divisor of given numbers.';
 
 const generateRound = () => {
-  const number1 = generateRandomNum();
-  const number2 = generateRandomNum();
+  const number1 = generateRandomNumber(1, 50);
+  const number2 = generateRandomNumber(1, 50);
 
   const question = `${number1} ${number2}`;
   const answer = String(maxDivider(number1, number2));

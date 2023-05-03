@@ -1,5 +1,5 @@
 import startGameProcess from '../index.js';
-import generateRandomNum from '../helpers.js';
+import generateRandomNumber from '../helpers.js';
 
 const generateProgression = (startNumber, increment, length) => {
   const result = [];
@@ -12,12 +12,12 @@ const generateProgression = (startNumber, increment, length) => {
 const description = 'What number is missing in the progression?';
 
 const generateRound = () => {
-  const startNumber = generateRandomNum(1, 5);
-  const increment = generateRandomNum(1, 10);
-  const length = generateRandomNum(5, 10);
+  const startNumber = generateRandomNumber(1, 5);
+  const increment = generateRandomNumber(1, 10);
+  const length = generateRandomNumber(5, 10);
 
   const progression = generateProgression(startNumber, increment, length);
-  const hiddenIndex = generateRandomNum(0, progression.length);
+  const hiddenIndex = generateRandomNumber(0, progression.length - 1);
   const hiddenNumber = progression[hiddenIndex];
   progression[hiddenIndex] = '..';
 

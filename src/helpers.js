@@ -1,3 +1,3 @@
-const generateRandomNum = (min = 1, max = 50) => Math.floor(Math.random() * (max - min)) + min;
+const generateRandomNumber = (min, max) => Math.floor(Math.random() * (max + 1 - min)) + min;
 
-export default generateRandomNum;
+export default generateRandomNumber;
