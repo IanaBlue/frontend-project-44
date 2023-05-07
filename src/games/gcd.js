@@ -1,7 +1,7 @@
 import startGameProcess from '../index.js';
 import generateRandomNumber from '../helpers.js';
 
-const maxDivider = (number1, number2) => {
+const getMaxDivider = (number1, number2) => {
   let firstDivider = number1;
   let secondDivider = number2;
   while (firstDivider !== secondDivider) {
@@ -21,7 +21,7 @@ const generateRound = () => {
   const number2 = generateRandomNumber(1, 50);
 
   const question = `${number1} ${number2}`;
-  const answer = String(maxDivider(number1, number2));
+  const answer = String(getMaxDivider(number1, number2));
   return [question, answer];
 };
 
